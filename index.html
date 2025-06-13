@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GetTop Electrodomésticos</title>
+  <link rel="icon" type="image/png" href="img/imgLogo/logoCasita.png">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/categories.css">
+  <link rel="stylesheet" href="css/weeklyOffers.css">
+  <link rel="stylesheet" href="css/featuredProduct.css">
+  <link rel="stylesheet" href="css/adFeatured.css">
+  <link rel="stylesheet" href="css/faq.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <a class="header-logo" href="#">
+        <figure class="logo">
+          <img src="img/imgLogo/logoCompletoDesplegado.png" alt="Logo de la tienda">
+        </figure>
+      </a>
+
+      <nav class="menu-toggle">
+        <label class="menu-label-cetegory" for="menu-switch">
+          <i class="fa-solid fa-bars"></i>
+          <span>Categorías</span>
+        </label>
+        <input id="menu-switch" type="checkbox">
+        <ul class="dropdown-categorias">
+          <li><a href="html/product.html">Televisores</a></li>
+          <li><a href="html/product.html">Cocinas</a></li>
+          <li><a href="html/product.html">Frigorificos</a></li>
+          <li><a href="html/product.html">Portatiles</a></li>
+          <li><a href="html/product.html">Celulares</a></li>
+          <li><a href="html/product.html">Microondas</a></li>
+          <li><a href="html/product.html">Lavadoras</a></li>
+          <li><a href="html/product.html">Otros</a></li>
+        </ul>
+      </nav>
+
+      <form class="search-bar" role="search">
+        <input type="search" placeholder="Buscar electrodoméstico...">
+        <button type="submit" aria-label="Buscar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+      <div class="user-panel-login">
+        <div class="favorites">
+          <a href="#" class="favorites-link">
+            <i class="fa-solid fa-heart"></i>
+            <span>Guardados</span>
+          </a>
+        </div>
+
+        <div class="user-login-active">
+          <label class="menu-label-cetegory" for="user-switch">
+            <img src="img/avatar.png" alt="Foto de Usuario">
+            <span class="name">Hi, Olivia</span>
+            <span class="email">olivia@...</span>
+          </label>
+          <input id="user-switch" type="checkbox">
+          <ul class="dropdown-menu">
+            <li><a href="#">Ver perfil</a></li>
+            <li><a href="#">Guardados</a></li>
+            <li><a href="#">Crear Anuncio</a></li>
+            <li><a href="#">Publicaciones</a></li>
+            <li><a href="html/chatSeller.html">Ventas</a></li>
+            <li><a href="html/chatBuyer.html">Compras</a></li>
+            <li><a href="#">Cerrar Sesión</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="header__menu__nav">
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-button"> MENU </label>
+      <section class="option-nav-section">
+        <nav class="main-menu">
+          <ul class="category-links">
+            <li><a href="#weeklyOffers"> Productos en Oferta </a></li>
+            <li><a href="#fProduct"> Productos Destacados </a></li>
+            <li><a href="#adFeatured"> Anuncios Destacados </a></li>
+            <li><a href="#faq"> Preguntas Frecuentes </a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </header>
+
+  <figure class="banner__img__container">
+    <figcaption class="banner__nav__content">
+      <a class="banner__arrow left" href="#">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <div class="banner__img__background">
+        <div class="banner__img__overlay"></div>
+        <img class="banner__img" src="img/banner1.jpg" alt="Banner">
+      </div>
+
+      <div class="banner__subtitle">
+        <span class="banner__subtitle__text1"> ¡Equipa tu hogar con lo mejor en electrodomésticos! </span>
+        <span class="banner__subtitle__text2"> Descubrí ofertas exclusivas y productos de alta calidad. </span>
+        <a class="banner__subtitle__link" href="#"> Ver productos </a>
+      </div>
+
+      <a class="banner__arrow right" href="#">
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </figcaption>
+  </figure>
+
+  <section class="categories">
+    <h2 class="sr-only">Categorías de productos</h2>
+    <a class="category__arrow left" href="#">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <ul class="category-list">
+      <li><a href="html/product.html"><img src="img/categories/televisores.webp"
+            alt="Televisores"><span>Televisores</span></a></li>
+      <li><a href="html/product.html"><img src="img/categories/microondas.webp" alt="Microondas"><span>Microondas</span></a></li>
+      <li><a href="html/product.html"><img src="img/categories/lavadora.webp" alt="Lavadoras"><span>Lavadoras</span></a></li>
+      <li><a href="html/product.html"><img src="img/categories/cocinas.webp" alt="Cocinas"><span>Cocinas</span></a></li>
+      <li><a href="html/product.html"><img src="img/categories/frigorificos.webp" alt="Frigoríficos"><span>Frigoríficos</span></a></li>
+      <li><a href="html/product.html"><img src="img/categories/portatiles.webp" alt="Portátiles"><span>Portátiles</span></a></li>
+      <li><a href="html/product.html"><img src="img/categories/celulares.webp" alt="Celulares"><span>Celulares</span></a></li>
+      <li><a href="html/product.html"><img src="img/categories/otros.webp" alt="Otros"><span>Otros</span></a></li>
+    </ul>
+    <a class="category__arrow right" href="#">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  </section>
+
+  <section class="weekly-offers" id="weeklyOffers">
+    <div class="weekly-offers-title">
+      <h2>¡Ofertas Imperdibles de la Semana!</h2>
+      <p>Descubre descuentos exclusivos en electrodomésticos seleccionados. ¡Aprovecha antes que se agoten!</p>
+    </div>
+    <div class="weekly-offers-product-cards">
+      <article class="weekly-offers-product">
+        <a href="html/detail.html">
+          <img src="img/tv1.webp" alt="TV Samsung 55 pulgadas 4K" class="weekly-offers-product__img">
+          <h4>TV Samsung Crystal UHD 55"</h4>
+          <p class="category">Televisores</p>
+          <p class="price">Bs. 8.999,00 <span class="old-price">12.000,00</span></p>
+          <div class="weekly-offers-user">
+            <img src="img/avatar.png" alt="Foto de Usuario">
+            <span>Camila</span>
+            <span>camila@electrodomesticos.com</span>
+          </div>
+        </a>
+      </article>
+      <article class="weekly-offers-product">
+        <a href="html/detail.html">
+          <img src="img/lavadora.1.webp" alt="Lavadora Samsung EcoBubble" class="weekly-offers-product__img">
+          <h4>Lavadora Samsung EcoBubble</h4>
+          <p class="category">Lavadoras</p>
+          <p class="price">Bs. 6.300,00 <span class="old-price">8.500,00</span></p>
+          <div class="weekly-offers-user">
+            <img src="img/avatar.png" alt="Foto de Luis">
+            <span>Luis</span>
+            <span>luis@electrodomesticos.com</span>
+          </div>
+        </a>
+      </article>
+      <article class="weekly-offers-product">
+        <a href="html/detail.html">
+          <img src="img/horno1.webp" alt="Horno eléctrico BGH 60L" class="weekly-offers-product__img">
+          <h4>Horno Eléctrico BGH 60L</h4>
+          <p class="category">Cocinas</p>
+          <p class="price">Bs. 1.990,00 <span class="old-price">2.850,00</span></p>
+          <div class="weekly-offers-user">
+            <img src="img/avatar.png" alt="Foto de Ana">
+            <span>Ana</span>
+            <span>ana@electrodomesticos.com</span>
+          </div>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="featured-product" id="fProduct">
+    <h2>Productos Más Populares</h2>
+    <p>Lo que nuestros usuarios están comprando y recomendando. Tecnología, diseño y calidad en un solo lugar.</p>
+    <div class="featured-product-cards">
+      <article class="featured-product-card">
+        <a href="html/detail.html">
+          <img src="img/portatil.1.webp" alt="Laptop ASUS VivoBook">
+          <h3>ASUS VivoBook 15</h3>
+          <p class="featured-product-description">Rendimiento potente con procesador AMD Ryzen 7 y 16GB de RAM. Pantalla
+            Full HD de 15.6".</p>
+          <div class="featured-product-user">
+            <span>Mateo</span>
+            <span>mateo@electrodomesticos.com</span>
+          </div>
+        </a>
+      </article>
+      <article class="featured-product-card">
+        <a href="html/detail.html">
+          <img src="img/frigo1.webp" alt="Frigorífico Samsung Inverter">
+          <h3>Frigorífico Samsung Inverter</h3>
+          <p class="featured-product-description">Tecnología de ahorro energético y amplio espacio interno. Ideal para
+            familias numerosas.</p>
+          <div class="featured-product-user">
+            <span>Lucía</span>
+            <span>lucia@electrodomesticos.com</span>
+          </div>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="ad__featured" id="adFeatured">
+    <h2 class="ad__featured__title">Anuncios Destacados de Nuestros Vendedores</h2>
+    <div class="ad__featured__product__cards">
+      <article class="ad__featured__product__card">
+        <a href="html/detail.html">
+          <img src="img/celular.1.webp" alt="Smartphone Xiaomi Redmi Note 12">
+          <h3>Xiaomi Redmi Note 12</h3>
+          <p class="ad__featured__product__description">Pantalla AMOLED 6.43", batería de 5000 mAh y cámara triple 50MP.
+          </p>
+          <div class="ad__featured__product__user">
+            <span>Bruno</span>
+            <span>bruno@electrodomesticos.com</span>
+          </div>
+        </a>
+      </article>
+      <article class="ad__featured__product__card">
+        <a href="html/detail.html">
+          <img src="img/otros1.webp" alt="Hoverboard eléctrico con luces LED">
+          <h3>Hoverboard LED 6.5"</h3>
+          <p class="ad__featured__product__description">Motor silencioso, luces LED y conectividad Bluetooth. Ideal para
+            niños y adultos.</p>
+          <div class="ad__featured__product__user">
+            <span>Valeria</span>
+            <span>valeria@electrodomesticos.com</span>
+          </div>
+        </a>
+      </article>
+      <article class="ad__featured__product__card">
+        <a href="html/detail.html">
+          <img src="img/otros2.webp" alt="Cámara Canon EOS Rebel T7">
+          <h3>Canon EOS Rebel T7</h3>
+          <p class="ad__featured__product__description">Sensor CMOS de 24.1MP, grabación Full HD y conectividad Wi-Fi
+            integrada.</p>
+          <div class="ad__featured__product__user">
+            <span>Diana</span>
+            <span>diana@electrodomesticos.com</span>
+          </div>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="faq__content" id="faq">
+    <h2>Preguntas Frecuentes</h2>
+    <details class="faq__detail">
+      <summary class="faq__detail__question">¿Cómo publicar un anuncio de electrodoméstico?</summary>
+      <p class="faq__detail__answer">Debes registrarte, ir a "Crear Anuncio" y seguir los pasos del formulario.</p>
+    </details>
+    <details class="faq__detail">
+      <summary class="faq__detail__question">¿Cómo contactar a un vendedor?</summary>
+      <p class="faq__detail__answer">Ingresa al producto y haz clic en "Enviar mensaje". Necesitas estar registrado.</p>
+    </details>
+    <details class="faq__detail">
+      <summary class="faq__detail__question">¿Qué información debo incluir en mi anuncio?</summary>
+      <p class="faq__detail__answer">Modelo, marca, estado del producto, fotos claras y precio.</p>
+    </details>
+    <details class="faq__detail">
+      <summary class="faq__detail__question">¿Cómo puedo destacar mi anuncio?</summary>
+      <p class="faq__detail__answer">Activa la opción de "Destacar" durante la creación del anuncio.</p>
+    </details>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="logo-footer">
+        <img src="img/imgLogo/logoCompleto.png" alt="Logo de GetTop">
+      </div>
+      <nav class="social">
+        <a href="#" aria-label="Twitter" class="icon twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="Facebook" class="icon facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="Instagram" class="icon instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="GitHub" class="icon github"><i class="fa-brands fa-github"></i></a>
+      </nav>
+    </div>
+    <p>&copy; 2025, Web GetTop by Valeria Peralta</p>
+  </footer>
+</body>
+
+</html>

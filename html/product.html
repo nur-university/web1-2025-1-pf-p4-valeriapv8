@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetTop - Productos</title>
+    <link rel="icon" type="image/png" href="../img/imgLogo/logoCasita.png">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/categoryProduct.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <a class="header-logo" href="../index.html">
+                <figure class="logo">
+                    <img src="../img/imgLogo/logoCompletoDesplegado.png" alt="Logo de la tienda">
+                </figure>
+            </a>
+
+            <nav class="menu-toggle">
+                <label class="menu-label-cetegory" for="menu-switch">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>Categorías</span>
+                </label>
+                <input id="menu-switch" type="checkbox">
+                <ul class="dropdown-categorias">
+                    <li><a href="product.html">Televisores</a></li>
+                    <li><a href="product.html">Cocinas</a></li>
+                    <li><a href="product.html">Frigorificos</a></li>
+                    <li><a href="product.html">Portatiles</a></li>
+                    <li><a href="product.html">Celulares</a></li>
+                    <li><a href="product.html">Microondas</a></li>
+                    <li><a href="product.html">Lavadoras</a></li>
+                    <li><a href="product.html">Otros</a></li>
+                </ul>
+            </nav>
+
+            <form class="search-bar" role="search">
+                <input type="search" placeholder="Buscar electrodoméstico...">
+                <button type="submit" aria-label="Buscar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <div class="user-panel-login">
+                <div class="favorites">
+                    <a href="#" class="favorites-link">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Guardados</span>
+                    </a>
+                </div>
+
+                <div class="user-login-active">
+                    <label class="menu-label-cetegory" for="user-switch">
+                        <img src="../img/avatar.png" alt="Foto de Usuario">
+                        <span class="name">Hi, Olivia</span>
+                        <span class="email">olivia@...</span>
+                    </label>
+                    <input id="user-switch" type="checkbox">
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Ver perfil</a></li>
+                        <li><a href="#">Guardados</a></li>
+                        <li><a href="#">Crear Anuncio</a></li>
+                        <li><a href="#">Publicaciones</a></li>
+                        <li><a href="chatSeller.html">Ventas</a></li>
+                        <li><a href="chatBuyer.html">Compras</a></li>
+                        <li><a href="#">Cerrar Sesión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <figure class="banner__img__container">
+        <figcaption class="banner__nav__content">
+            <div class="banner__img__background">
+                <div class="banner__img__overlay"></div>
+                <img class="banner__img" src="../img/bannerTv.jpg" alt="Banner">
+            </div>
+
+            <div class="banner__subtitle">
+                <span class="banner__subtitle__text1"> Televisores </span>
+                <span class="banner__subtitle__text2"> Los mejores televisores, de todo tipo y precio. </span>
+            </div>
+        </figcaption>
+    </figure>
+
+    <main class="product-category">
+        <div class="product-grid">
+            <article class="product-card">
+                <a class="product-card-content" href="detail.html">
+                    <img src="../img/tv1.webp" alt="LG UHD AI ThinQ">
+                    <h3>Televisor plano 60” LG UHD AI ThinQ 4k Smart Magic Remote</h3>
+                    <p class="price">Bs 7.899,00</p>
+                    <div class="user-info">
+                        <img src="../img/avatar.png" alt="Danilo Perez">
+                        <div>
+                            <span>Danilo Perez</span>
+                            <span>daniloperez@gmail.com</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            <article class="product-card">
+                <a class="product-card-content" href="detail.html">
+                    <img src="../img/tv2.webp" alt="TCL Ifalcon 40">
+                    <h3>Televisor 40” Ifalcon smart android 11 hd pantalla infinita</h3>
+                    <p class="price">Bs 3.189,00</p>
+                    <div class="user-info">
+                        <img src="../img/avatar.png" alt="Willy Rex">
+                        <div>
+                            <span>Willy Rex</span>
+                            <span>willyrex@gmail.com</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            <article class="product-card">
+                <a class="product-card-content" href="detail.html">
+                    <img src="../img/tv3.webp" alt="Sony Bravia 55">
+                    <h3>Televisor 50' Sony samrt android 13 hd pantalla plana</h3>
+                    <p class="price">Bs 2.178,00</p>
+                    <div class="user-info">
+                        <img src="../img/avatar.png" alt="Willy Rex">
+                        <div>
+                            <span>Vegetta</span>
+                            <span>vegettax@gmail.com</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="logo-footer">
+                <img src="../img/imgLogo/logoCompleto.png" alt="Logo de GetTop">
+            </div>
+            <nav class="social">
+                <a href="#" aria-label="Twitter" class="icon twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook" class="icon facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram" class="icon instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="GitHub" class="icon github"><i class="fa-brands fa-github"></i></a>
+            </nav>
+        </div>
+        <p>&copy; 2025, Web GetTop by Valeria Peralta</p>
+    </footer>
+</body>
+
+</html>

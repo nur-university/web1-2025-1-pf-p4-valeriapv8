@@ -1,0 +1,127 @@
+.weekly-offers {
+  padding: 24px 16px;
+  background-color: #ffffff;
+}
+
+.weekly-offers-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weekly-offers-title h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.weekly-offers-title p {
+  font-size: 14px;
+  color: #555;
+}
+
+.weekly-offers-product-cards {
+  text-align: center;
+}
+
+.weekly-offers-product {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  margin: 12px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 12px;
+  vertical-align: top;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.weekly-offers-product img {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  object-fit: cover;
+}
+
+.weekly-offers-product h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1a1a1a;
+}
+
+.weekly-offers-product .category {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.weekly-offers-product .price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0066ff;
+  margin-bottom: 10px;
+}
+
+.weekly-offers-product .old-price {
+  font-size: 13px;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 6px;
+}
+
+.weekly-offers-user {
+  text-align: left;
+  margin-top: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekly-offers-user img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.weekly-offers-user span {
+  font-size: 12px;
+  color: #444;
+  margin-right: 4px;
+}
+
+@media (min-width: 768px) {
+  .weekly-offers-title h2 {
+    font-size: 22px;
+  }
+
+  .weekly-offers-title p {
+    font-size: 15px;
+  }
+
+  .weekly-offers-product {
+    width: 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .weekly-offers {
+    padding: 40px 60px;
+  }
+
+  .weekly-offers-product {
+    width: 30%;
+  }
+
+  .weekly-offers-title h2 {
+    font-size: 28px;
+  }
+
+  .weekly-offers-title p {
+    font-size: 16px;
+  }
+}
